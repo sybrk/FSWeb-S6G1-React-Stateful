@@ -29063,8 +29063,8 @@ function Input() {
   var stil = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: inputDeğeri.length > 10 ? 'crimson' : "royalblue",
-    textTransform: "uppercase" /* ADIM 2 */
+    color: inputDeğeri.length > 10 ? 'crimson' : "royalblue"
+    /* ADIM 2 */
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
@@ -29072,7 +29072,7 @@ function Input() {
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Input"), /*#__PURE__*/_react.default.createElement("div", {
     id: "output",
     style: stil
-  }, inputDeğeri), " ", /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
+  }, inputDeğeri.toUpperCase()), " ", /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("input", {
     id: "input",
     type: "text",
     value: inputDeğeri,
@@ -29475,7 +29475,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53951" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55466" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
